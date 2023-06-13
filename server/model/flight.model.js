@@ -1,9 +1,9 @@
 const { Sequelize, Model, DataTypes } = require("sequelize");
 
-const sequelize = new Sequelize("2019", "root", "*", {
+const sequelize = new Sequelize("data23", "DatabaseUser", "FBdata2023", {
   host: "localhost",
-  dialect: "postgres",
-  port: 5432,
+  dialect: "mysql",
+  port: 3306,
 });
 
 class Flight extends Model {}
