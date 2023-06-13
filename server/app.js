@@ -8,7 +8,7 @@ const flightRouter = require("./router/flight.router");
 const reservationRouter = require("./router/reservation.router");
 
 const app = express();
-app.use(morgan("dev"));
+//app.use(morgan("dev"));
 app.use(cors());
 
 app.use("/", express.static("client/dist", { index: false }));
