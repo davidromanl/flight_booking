@@ -5,7 +5,7 @@ Project created with:
 - Express
 - React
 
-[Demo Site Deployed](http://http://20.9.64.7:3000/)
+[Demo Site Deployed](http://20.9.64.7:3000/)
 Azure Cloud VM - Ubuntu 20
 
 # Requirements
