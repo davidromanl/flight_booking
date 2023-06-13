@@ -2,8 +2,7 @@ const { Sequelize, Model, DataTypes } = require("sequelize");
 
 const sequelize = new Sequelize("data23", "DatabaseUser", "FBdata2023", {
   host: "localhost",
-  dialect: "mysql",
-  port: 3306,
+  dialect: "postgres",
 });
 
 class Reservation extends Model {}
