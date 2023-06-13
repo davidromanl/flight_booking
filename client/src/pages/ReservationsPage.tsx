@@ -7,7 +7,7 @@ import cityService from "../services/cityService";
 function ReservationsPage() {
   interface City {
     id: string;
-    label: string;
+    ciudad: string;
     aeropuerto: string;
   }
 
@@ -62,7 +62,7 @@ function ReservationsPage() {
                 <div className="md:w-1/2">
                   <small>Desde</small>
                   <div className="font-semibold text-lg">
-                    Origen: {getCity(origen)?.label}
+                    Origen: {getCity(origen)?.ciudad}
                   </div>
                   <div className="text-lg">{getCity(origen)?.aeropuerto}</div>
                   <div>Hora de salida: {salida}</div>
@@ -76,7 +76,7 @@ function ReservationsPage() {
                 <div className="md:w-1/2">
                   <small>Hacia</small>
                   <div className="font-semibold text-lg">
-                    Destino: {getCity(destino)?.label}
+                    Destino: {getCity(destino)?.ciudad}
                   </div>
                   <div className="text-lg">{getCity(destino)?.aeropuerto}</div>
                   <div>Hora de llegada: {llegada}</div>
