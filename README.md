@@ -6,6 +6,9 @@ Project created with:
 - React
 
 [Demo Site Deployed](http://20.9.64.7:3000/)
+
+http://20.9.64.7:3000/
+
 Azure Cloud VM - Ubuntu 20
 
 # Requirements
