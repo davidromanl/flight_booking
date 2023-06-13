@@ -5,13 +5,16 @@ Project created with:
 - Express
 - React
 
-Requirements
+[Demo Site Deployed](http://http://20.9.64.7:3000/)
+Azure Cloud VM - Ubuntu 20
 
+# Requirements
 Install Node.js >= 16.0 version
 Install Postgres
 Install Git
 
-Commands:
+# Commands:
+Run this commands to install App
 ```bash
 // Create DataBase and User
 sudo -u postgres createuser <UserName>
