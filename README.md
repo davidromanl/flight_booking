@@ -13,7 +13,9 @@ Azure Cloud VM - Ubuntu 20
 
 # Requirements
 Install Node.js >= 16.0 version
+
 Install Postgres
+
 Install Git
 
 # Commands:
