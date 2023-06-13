@@ -28,8 +28,8 @@ npm install
 cd client/ && npm install
 
 // Build Front dist folder
-~/client/$ npm run build
+client/ npm run build
 
 // Run App
-~/client/$ npm run start
+npm run start
 ```
