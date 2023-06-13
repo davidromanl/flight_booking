@@ -12,6 +12,7 @@ Install Postgres
 Install Git
 
 Commands:
+```bash
 // Create DataBase and User
 ~$ sudo -u postgres createuser <UserName>
 sudo -u postgres createdb <DataBaseName>
@@ -31,3 +32,4 @@ sudo -u postgres createdb <DataBaseName>
 
 // Run App
 ~/client/$ npm run start
+```
